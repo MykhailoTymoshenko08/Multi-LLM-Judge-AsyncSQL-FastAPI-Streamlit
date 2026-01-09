@@ -39,8 +39,8 @@ Multi-LLM-Judge-AsyncSQL-FastAPI-Streamlit/
 [Response → Streamlit UI]
 
 ┌─────────────┐      ┌─────────────┐     ┌─────────────────┐
-│   Streamlit │────▶│   FastAPI   │────▶│   OpenRouter    │
-│   (UI)      │◀────│   (Backend) │◀────│   (LLM API)     │
+│   Streamlit │────> │   FastAPI   │────>│   OpenRouter    │
+│   (UI)      │<────│   (Backend) │<────│   (LLM API)     │
 └─────────────┘      └─────────────┘     └─────────────────┘
                            │                     │
                            ▼                     ▼
