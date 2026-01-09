@@ -12,6 +12,7 @@
 - **Interactive UI: Clean web interface built with Streamlit for easy interaction and history browsing**
 
 ## Repository structure
+```bash
 Multi-LLM-Judge-AsyncSQL-FastAPI-Streamlit/
 │
 ├── aggregator_fast_api.py      # FastAPI
@@ -20,8 +21,10 @@ Multi-LLM-Judge-AsyncSQL-FastAPI-Streamlit/
 ├── requirements.txt            # requirements
 ├── my_aggregator.db            # SQLite db
 └── README.md                   # documentaion
+```
 
 ## Architecture
+```bash
 [Streamlit UI] 
       ↓
   (HTTP POST /ask)
@@ -45,6 +48,7 @@ Multi-LLM-Judge-AsyncSQL-FastAPI-Streamlit/
                     │  SQLite DB  │     │   Judge (LLM)   │
                     │  (History)  │     │   (Analysis)    │
                     └─────────────┘     └─────────────────┘
+```
 
 ## Tech Stack
 - **Python 3.10+**
@@ -60,6 +64,7 @@ Multi-LLM-Judge-AsyncSQL-FastAPI-Streamlit/
 - **Streamlit**
 
 ## Project Structure
+```bash
 Multi-LLM-Judge/
 ├── aggregator_fast_api.py  # Main FastAPI backend application
 ├── test_streamlit.py       # Streamlit frontend application
@@ -67,6 +72,7 @@ Multi-LLM-Judge/
 ├── .env                    # Environment variables (API Keys)
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
+```
 
 ## Installation & Setup
 ### 1. Clone the repository
